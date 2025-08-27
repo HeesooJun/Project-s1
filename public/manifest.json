@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Web Analyzer",
+  "version": "1.0",
+  "description": "Analyzes web pages for performance and security.",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "file.svg",
+      "48": "file.svg",
+      "128": "file.svg"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "file.svg",
+    "48": "file.svg",
+    "128": "file.svg"
+  }
+}
