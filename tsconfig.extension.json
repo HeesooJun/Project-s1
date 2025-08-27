@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "./public",
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "isolatedModules": false
+  },
+  "include": ["src/background.ts", "src/app/popup-loader.tsx"],
+  "exclude": ["node_modules", "src/app/dashboard", "src/app/components"]
+}
